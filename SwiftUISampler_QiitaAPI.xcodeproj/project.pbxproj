@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		D3F77E8A22AE010200C0CC48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F77E8922AE010200C0CC48 /* AppDelegate.swift */; };
 		D3F77E8C22AE010200C0CC48 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F77E8B22AE010200C0CC48 /* SceneDelegate.swift */; };
-		D3F77E8E22AE010200C0CC48 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F77E8D22AE010200C0CC48 /* ContentView.swift */; };
+		D3F77E8E22AE010200C0CC48 /* QiitaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F77E8D22AE010200C0CC48 /* QiitaView.swift */; };
 		D3F77E9022AE010300C0CC48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3F77E8F22AE010300C0CC48 /* Assets.xcassets */; };
 		D3F77E9322AE010300C0CC48 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3F77E9222AE010300C0CC48 /* Preview Assets.xcassets */; };
 		D3F77E9622AE010300C0CC48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3F77E9422AE010300C0CC48 /* LaunchScreen.storyboard */; };
+		D3F77E9E22AE011700C0CC48 /* QiitaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F77E9D22AE011700C0CC48 /* QiitaModel.swift */; };
+		D3F77EA022AE027D00C0CC48 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F77E9F22AE027D00C0CC48 /* ViewModel.swift */; };
+		D3F77EA422AE0BBA00C0CC48 /* QiitaRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F77EA322AE0BBA00C0CC48 /* QiitaRow.swift */; };
+		D3F77EA622AE0CE700C0CC48 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F77EA522AE0CE700C0CC48 /* SearchBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D3F77E8622AE010200C0CC48 /* SwiftUISampler_QiitaAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUISampler_QiitaAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3F77E8922AE010200C0CC48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3F77E8B22AE010200C0CC48 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D3F77E8D22AE010200C0CC48 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D3F77E8D22AE010200C0CC48 /* QiitaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiitaView.swift; sourceTree = "<group>"; };
 		D3F77E8F22AE010300C0CC48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3F77E9222AE010300C0CC48 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D3F77E9522AE010300C0CC48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3F77E9722AE010300C0CC48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3F77E9D22AE011700C0CC48 /* QiitaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiitaModel.swift; sourceTree = "<group>"; };
+		D3F77E9F22AE027D00C0CC48 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		D3F77EA322AE0BBA00C0CC48 /* QiitaRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiitaRow.swift; sourceTree = "<group>"; };
+		D3F77EA522AE0CE700C0CC48 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +64,16 @@
 		D3F77E8822AE010200C0CC48 /* SwiftUISampler_QiitaAPI */ = {
 			isa = PBXGroup;
 			children = (
+				D3F77E9722AE010300C0CC48 /* Info.plist */,
 				D3F77E8922AE010200C0CC48 /* AppDelegate.swift */,
+				D3F77E9D22AE011700C0CC48 /* QiitaModel.swift */,
+				D3F77EA322AE0BBA00C0CC48 /* QiitaRow.swift */,
+				D3F77E8D22AE010200C0CC48 /* QiitaView.swift */,
 				D3F77E8B22AE010200C0CC48 /* SceneDelegate.swift */,
-				D3F77E8D22AE010200C0CC48 /* ContentView.swift */,
+				D3F77EA522AE0CE700C0CC48 /* SearchBar.swift */,
+				D3F77E9F22AE027D00C0CC48 /* ViewModel.swift */,
 				D3F77E8F22AE010300C0CC48 /* Assets.xcassets */,
 				D3F77E9422AE010300C0CC48 /* LaunchScreen.storyboard */,
-				D3F77E9722AE010300C0CC48 /* Info.plist */,
 				D3F77E9122AE010300C0CC48 /* Preview Content */,
 			);
 			path = SwiftUISampler_QiitaAPI;
@@ -146,9 +158,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3F77EA622AE0CE700C0CC48 /* SearchBar.swift in Sources */,
+				D3F77EA022AE027D00C0CC48 /* ViewModel.swift in Sources */,
+				D3F77E9E22AE011700C0CC48 /* QiitaModel.swift in Sources */,
 				D3F77E8A22AE010200C0CC48 /* AppDelegate.swift in Sources */,
+				D3F77EA422AE0BBA00C0CC48 /* QiitaRow.swift in Sources */,
 				D3F77E8C22AE010200C0CC48 /* SceneDelegate.swift in Sources */,
-				D3F77E8E22AE010200C0CC48 /* ContentView.swift in Sources */,
+				D3F77E8E22AE010200C0CC48 /* QiitaView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
